@@ -9,7 +9,7 @@ import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 
-public class TestJava8 {
+public class TestFunctionInterFace {
     @Test
     public void testConsumer() {
         consumer(98, (m) -> System.out.println("买吃鸡游戏花了" + m + "元"));
